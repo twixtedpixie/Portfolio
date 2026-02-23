@@ -50,7 +50,7 @@ main{
 
 a{
     background: radial-gradient(ellipse at center,  #20e220 41%,#16a016 92%);
-    border: 5px dotted white;
+    outline: 5px dotted white;
     border-radius: 100px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -59,7 +59,7 @@ a{
 }
 
 a:hover{
-    background: linear-gradient(to bottom,  #ff0000 7%,#ff9932 22%,#fff832 39%,#32ff4a 56%,#32d6ff 71%,#ae00ff 90%);
+    background: radial-gradient(ellipse at center,  #15b915 41%,#118a11 92%);
     border: whtie dotted 5px;
 }
 h1 {
