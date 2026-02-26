@@ -1,12 +1,12 @@
 body{
-    background-color: green;
     
 }
 table{
     margin: auto;
 }
-a{
-    background: radial-gradient(ellipse at center,  #20e220 41%,#16a016 92%);
+
+a#red{
+    background: radial-gradient(ellipse at center,  #ff7e7e 41%,#ff0000 92%);
     outline: 5px dotted white;
     border-radius: 100px;
     padding-bottom: 10px;
@@ -15,7 +15,21 @@ a{
     padding-top: 80px;
 }
 
-a:hover{
-    background: radial-gradient(ellipse at center,  #15b915 41%,#118a11 92%);
+a:hover#red{
+    background: radial-gradient(ellipse at center,  #ff0000 41%,#cc0000 92%);
+    border: whtie dotted 5px;
+}
+a#orange{
+    background: radial-gradient(ellipse at center,  #ffd375 41%,#ff9900 92%);
+    outline: 5px dotted white;
+    border-radius: 100px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 80px;
+}
+
+a:hover#orange{
+    background: radial-gradient(ellipse at center,  #ff9900 41%,#b17900 92%);
     border: whtie dotted 5px;
 }
