@@ -13,6 +13,28 @@ header{
     box-shadow: 10px 5px 20px rgb(0, 255, 229),-10px -5px 20px  rgb(255, 0, 230);
     
 }
+header#showingOff{
+    background-image: url(Images/Art.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border: white solid 7px;
+    border-radius: 60%;
+    height: 13%;
+    box-shadow: 10px 5px 20px rgb(0, 255, 229),-10px -5px 20px  rgb(255, 0, 230);
+    
+}
+header#contact{
+    background-image: url(Images/ContactBanner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border: white solid 7px;
+    border-radius: 60%;
+    height: 13%;
+    box-shadow: 10px 5px 20px rgb(0, 255, 229),-10px -5px 20px  rgb(255, 0, 230);
+    
+}
 div#head{
     border-top:20px rgba(255, 255, 255, 0) solid;
     border-bottom:20px rgba(255, 255, 255, 0) solid;    
