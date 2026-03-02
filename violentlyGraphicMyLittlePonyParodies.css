@@ -3,7 +3,7 @@ table{
 }
 
 a#red{
-    background: radial-gradient(ellipse at center,  #ff7e7e 41%,#ff0000 92%);
+    background: radial-gradient(ellipse at center,  #ff8162 41%,#ff0000 92%);
     outline: 5px dotted white;
     border-radius: 100px;
     padding-bottom: 10px;
@@ -17,7 +17,7 @@ a:hover#red{
     border: whtie dotted 5px;
 }
 a#orange{
-    background: radial-gradient(ellipse at center,  #ffd375 41%,#ff9900 92%);
+    background: radial-gradient(ellipse at center,  #ffe3a8 41%,#ffaa3b 92%);
     outline: 5px dotted white;
     border-radius: 100px;
     padding-bottom: 10px;
@@ -27,6 +27,34 @@ a#orange{
 }
 
 a:hover#orange{
-    background: radial-gradient(ellipse at center,  #ff9900 41%,#b17900 92%);
+    background: radial-gradient(ellipse at center,  #ffed84 41%,#ff9100 92%);
+    border: whtie dotted 5px;
+}
+a#yellow{
+    background: radial-gradient(ellipse at center,  #fdff91 41%,#fffb00 92%);
+    outline: 5px dotted white;
+    border-radius: 100px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 80px;
+}
+
+a:hover#yellow{
+    background: radial-gradient(ellipse at center,  #fff783 41%,#ffee00 92%);
+    border: whtie dotted 5px;
+}
+a#blue{
+    background: radial-gradient(ellipse at center,  #aefaff 41%,#3ec2ff 92%);
+    outline: 5px dotted white;
+    border-radius: 100px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 80px;
+}
+
+a:hover#blue{
+    background: radial-gradient(ellipse at center,  #9ce3ff 41%,#039aff 92%);
     border: whtie dotted 5px;
 }
